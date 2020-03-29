@@ -6,7 +6,7 @@ A simple demo backend app used as the underline interface for a bot
 ![High Level View](https://user-images.githubusercontent.com/37622785/77843549-e5ac3700-71a6-11ea-9bd3-a330e7c9a831.png)
 
 ### Azure Functions
-Azure functions were selected to align with serverless compute. 
+Azure functions were selected to align with serverless compute paradigm. All functions must return valid JSON.
 
 #### GetCities
 Modify the hard coded return value to specific query.
@@ -23,7 +23,7 @@ Bot accepts user data in a set of 4 questions, showcasing how to call an api, ho
 ![Bot Flow](https://user-images.githubusercontent.com/37622785/77684647-ed02f300-6fa2-11ea-8d19-579bd7de199a.png)
 
 #### Import travis
-Create your helath bot from the Azure Market Place.
+Create your health bot from the Azure Market Place.
 import tavis.json to have a quick start
 
 #### Deploy functions to Azure
