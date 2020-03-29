@@ -17,6 +17,9 @@ Modify the hard coded return value to specific query, use the passed values for 
 #### UpdateDetails
 Provided JSON object with the gathered information by the bot, currently saves the entry as a single blob. Modify the implementation to a selected DB.
 
+### Storage : Either Blob or any other storage solution
+Currently using only blob as a simple reference impelmentation  
+
 ### Bot Flow Overview
 Bot accepts user data in a set of 4 questions, showcasing how to call an api, how to travers through the data and call back once data has been collected. it works with the Microsoft Health Bot framework.
 
