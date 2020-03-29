@@ -3,6 +3,20 @@ A simple demo backend app used as the underline interface for a bot
 
 ## The Architecture
 
+![High Level View](https://user-images.githubusercontent.com/37622785/77843549-e5ac3700-71a6-11ea-9bd3-a330e7c9a831.png)
+
+### Azure Functions
+Azure functions were selected to align with serverless compute. 
+
+#### GetCities
+Modify the hard coded return value to specific query.
+
+#### GetRoutes
+Modify the hard coded return value to specific query, use the passed values for better filtering.
+
+#### UpdateDetails
+Provided JSON object with the gathered information by the bot, currently saves the entry as a single blob. Modify the implementation to a selected DB.
+
 ### Bot Flow Overview
 Bot accepts user data in a set of 4 questions, showcasing how to call an api, how to travers through the data and call back once data has been collected. it works with the Microsoft Health Bot framework.
 
