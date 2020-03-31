@@ -25,6 +25,10 @@ Bot accepts user data in a set of 4 questions, showcasing how to call an api, ho
 
 ![Bot Flow](https://user-images.githubusercontent.com/37622785/77684647-ed02f300-6fa2-11ea-8d19-579bd7de199a.png)
 
+![Security](https://docs.microsoft.com/en-us/healthbot/handoff-teams)
+
+![Variables](https://docs.microsoft.com/en-us/healthbot/scenario-authoring/instance-variables)
+
 #### Import travis
 Create your health bot from the Azure Market Place.
 import tavis.json to have a quick start
